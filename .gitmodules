@@ -1,0 +1,3 @@
+[submodule "mnist_png"]
+	path = mnist_png
+	url = https://github.com/rasbt/mnist-pngs.git
