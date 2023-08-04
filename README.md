@@ -9,12 +9,13 @@ This code samples show unoptimized/optimized tensorflow workflow.
 
 ## Requirements
 
+### Hardware Requirements
 * x86-64 (AMD64) CPU
 * RAM >= 8GiB
 * NVIDIA [Computer Capability](https://developer.nvidia.com/cuda-gpus) 7.0+ GPUs
     * GPU memory > 12GiB for default batch size
 
-### Test Environment
+#### Test Environment
 * CPU : Intel(R) Xeon(R) Gold 5218R
 * GPU : 2x A100 80GB PCI-E
 * RAM : 255GiB
@@ -30,8 +31,8 @@ This code samples show unoptimized/optimized tensorflow workflow.
 1. Clone this repo with submodule
    ```
    git clone --recursive https://github.com/ReturnToFirst/FastTFWorkflow.git
-   ```
-2. Compare performance between unoptimized/optimized workflow
+
+3. Compare performance between unoptimized/optimized workflow
 
 ### For advanced users
 
